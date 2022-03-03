@@ -1,0 +1,76 @@
+# [Обязательное] Название сайта
+site_name: MeWeb
+
+# Базовый адрес сайта
+site_url: https://www.meweb.kz/
+
+# Описание сайта. Добавляется в meta в html-заголовке каждой страницы.
+site_description: Справочник MeWeb.
+
+# Автор (или авторы) сайта. Добавляется в html-заголовок каждой страницы.
+site_author: Eraly Aisahanov
+
+copyright: Справочник разработчика &copy; 2022 Eraly Aisahanov
+
+# Ссылка на репозиторий, в котором хранятся исходные материалы.
+repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: meweb
+
+# Структура навигации генерируемого сайта.
+nav:
+  - Главная: index.md
+
+
+# Информация о теме, которая будет применена для сгенерированного сайта и её параметрах
+theme:
+  name: material
+  custom_dir: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: ru
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: 'assets/favicon.svg'
+  logo: 'assets/favicon.svg'
+
+
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Chambo015
+      name: 'Посетите мой GitHub'
+
+# Список использованных плагинов MkDocs
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
