@@ -22,12 +22,19 @@ nav:
   - JavaScript:
     - Object: 
       - JavaScript/object/index.md
+    - Array: 
+      - JavaScript/Array/index.md
+    - Symbol: JavaScript/Symbol.md
+    - RegExp: JavaScript/RegExp.md
     - DOM: 
       - JavaScript/DOM/index.md
       - Event: JavaScript/DOM/event.md
       - Dom-узлы: JavaScript/DOM/node.md
       - Dom-дерево: JavaScript/DOM/tree.md
       - Формы: JavaScript/DOM/forms.md
+  - Gulp: Gulp/index.md
+
+    
 
 
 # Информация о теме, которая будет применена для сгенерированного сайта и её параметрах
@@ -99,6 +106,11 @@ extra:
 # Дополнительный CSS
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/prism.css
+
+extra_javascript:
+  - assets/js/prism.js
+
 
 # Список использованных плагинов MkDocs
 plugins:

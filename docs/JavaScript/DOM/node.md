@@ -36,6 +36,7 @@ document.body instanceof Text // false (2)
 ### Имя элемента tagName и узла nodeName
 * Свойство `tagName` есть только у элементов класса Element. У узлов таких как Comment и Text будет значение `undefined`
 * Свойство `nodeName` определено для любых узлов Node
+* Есть еще свойство `localName` только для чтения, возвращает локальную часть полного имени этого узла.
 
 ```HTML title="HTML"
 <body>
@@ -63,7 +64,7 @@ document.body.lastChild.tagName; // H1 (2)
 ```
 
 * Свойство `innerHTML` - Возвращает содержимое элемента. А при присваивании заменяет содержимое
-  ```JavaScript
+  ```js
   elem.innerHTML // Привет <b>Мир</b>
 
   elem.innerHTML = "<p>Упс</p>" 
@@ -77,7 +78,7 @@ document.body.lastChild.tagName; // H1 (2)
         * На его место становится новое значение innerHTML (с добавленной строкой).
 
 * Свойство `outerHTML` в Element похоже на innerHTML, но его значение включает сам элемент.
-  ```JavaScript
+  ```js 
   elem.outerHTML // <div id="elem">Привет <b>Мир</b></div>
   elem.outerHTML = '<p>Упс</p>' // Заменяем сам элемент
   elem.outerHTML // ReferenceError: elem is not defined (1)

@@ -80,7 +80,7 @@ graph LR
   A[Start] --> B{Error?};
 ```
 
-Option<span style="display: inline-block"></span>    | Type   | Default               | Description
+Option   | Type   | Default               | Description
 :------------------------ | ------ | ----------------------| -----------
 `css_class`               | string | `#!py3 'highlight`    | Default class to apply to the wrapper element on code blocks. Other extensions can override this.
 `guess_lang`              | bool   | `#!py3 False`         | Guess what syntax language should be used if no language is specified. 
