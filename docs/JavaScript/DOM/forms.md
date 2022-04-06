@@ -124,14 +124,14 @@ let fieldCount = form.elements.length;
 
 ### select и option - раскрывающийся список
 
-`#!html <select>` имеет 3 важных свойства:
+`#!html <select>` имеет 3 важных свойства чтобы **получить значение**:
 
 * `select.options` – коллекция из подэлементов `<option>`,
 * `select.value` – значение **выбранного в данный момент** `<option>`,
 * `select.selectedIndex` – номер **выбранного** `<option>`.
 
-Они дают три разных способа установить значение в `<select>`
 
+Три разных способа **установить значение** в `<select>`:
 ```html
 <select id="select">
   <option value="apple">Яблоко</option>
