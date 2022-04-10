@@ -24,6 +24,7 @@ nav:
       - JavaScript/object/index.md
     - Array: 
       - JavaScript/Array/index.md
+      - Сортировка и Преобразование массива: JavaScript/Array/sort_array.md
     - Symbol: JavaScript/Symbol.md
     - RegExp: JavaScript/RegExp.md
     - DOM: 
@@ -105,8 +106,8 @@ extra:
 
 # Дополнительный CSS
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/prism.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/prism.css
 
 extra_javascript:
   - assets/js/prism.js
