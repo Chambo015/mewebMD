@@ -22,9 +22,12 @@ nav:
   - JavaScript:
     - Object: 
       - JavaScript/object/index.md
+      - Map: JavaScript/object/Map.md
+      - Set: JavaScript/object/Set.md
     - Array: 
       - JavaScript/Array/index.md
       - Сортировка и Преобразование массива: JavaScript/Array/sort_array.md
+      - Поиск в массиве: JavaScript/Array/search_in_array.md
     - Symbol: JavaScript/Symbol.md
     - RegExp: JavaScript/RegExp.md
     - DOM: 
@@ -32,6 +35,7 @@ nav:
       - Event: JavaScript/DOM/event.md
       - Dom-узлы: JavaScript/DOM/node.md
       - Dom-дерево: JavaScript/DOM/tree.md
+      - Метрики, координаты и scroll: JavaScript/DOM/metric.md
       - Формы: JavaScript/DOM/forms.md
   - Gulp: Gulp/index.md
 

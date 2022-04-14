@@ -93,7 +93,12 @@ p {
 .highlight span.filename {
     font-weight: 500 !important;
 }
-
+h1 code, h2 code, h3 code, h4 code {
+    font-size: .95em !important;
+}
+.highlight .filename {
+    font-family: var(--md-code-font-family) !important;
+}
 
 /* :root>* {
     --md-code-hl-string-color: #0FF1CE;
