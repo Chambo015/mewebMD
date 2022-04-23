@@ -88,7 +88,7 @@ p {
 }
 
 .tabbed-content {
-    border-bottom : 2px solid rgb(82, 108, 254);
+    border-bottom : 2px solid rgba(0, 0, 0, 0.411);
 }
 .highlight span.filename {
     font-weight: 500 !important;

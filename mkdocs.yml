@@ -37,6 +37,7 @@ nav:
       - Dom-дерево: JavaScript/DOM/tree.md
       - Метрики, координаты и scroll: JavaScript/DOM/metric.md
       - Формы: JavaScript/DOM/forms.md
+    - Module: JavaScript/module.md
   - Gulp: Gulp/index.md
 
     
